@@ -1,0 +1,67 @@
+@fontPrincipal: Roboto, Sans-serif;
+@fonteDoTitulo: Oswald, cursive;
+@corDoTexto: #fff;
+@corDeFundo: rgb(46, 135, 170);
+@corDeFundo2: rgb(23, 226, 233);
+@corDeFundoBotao: antiquewhite;
+
+body {
+    background-color: @corDeFundo;
+    font-family: @fontPrincipal;
+    color: @corDoTexto;
+}
+
+header {
+max-width: 100%;
+background-color: @corDeFundo2;
+padding: 10px;
+}
+
+h1 {
+    font-family: @fonteDoTitulo;
+    text-align: center;
+    margin-bottom: 50px;
+    color: black;
+}
+
+main {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+    font-size: 1em;
+    text-align: center;
+
+    label {
+        font-weight: bold;
+    }
+}
+
+button {
+    padding: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 16px;
+    border-radius: 8px;
+    background-color: @corDeFundoBotao;
+    font-family: @fontPrincipal;
+}
+
+input, textarea {
+    display: block;
+    margin: 3px auto 0;
+    font-size: 16px;
+    text-align: center;
+    padding: 3px;
+    border-radius: 8px;
+    background-color: rgb(rgb(159, 215, 17));
+}
+
+.campo-form {
+    padding: 10px;
+}
+
+textarea {
+    resize: none;
+    padding: 20px;
+}
